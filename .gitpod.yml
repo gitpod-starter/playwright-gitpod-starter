@@ -1,0 +1,5 @@
+image:
+  file: .gitpod.Dockerfile
+tasks:
+  - init: npm install playwright && npm install create-playwright && npm init playwright@latest && npx playwright install-deps && npm install -D @playwright/test
+
